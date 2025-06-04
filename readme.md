@@ -32,7 +32,7 @@ Here’s a look at the Drag and Drop App:
 
 ## 🌐 Live Demo
 
-🔗 [View Live Project](https://qasim-rokeeb.github.io/Drag-and-Drop)
+🔗 [View Live Project](https://qasim-rokeeb.github.io/drag-and-drop)
 
 ---
 
