@@ -26,7 +26,7 @@ A simple and interactive **drag-and-drop interface** using **HTML**, **CSS**, an
 
 Here’s a look at the Drag and Drop App:
 
-![App Preview](https://raw.githubusercontent.com/Qasim-Rokeeb/Drag-and-Drop/main/screenshot.png)
+![App Preview](https://raw.githubusercontent.com/Qasim-Rokeeb/drag-and-drop/main/screenshot.png)
 
 ---
 
@@ -89,6 +89,4 @@ Follow my journey and future projects 👇
 This project is licensed under the [MIT License](LICENSE).
 ````
 
----
 
-Let me know when you’re ready for **Day 20** or want enhancements like animations or sortable list functionality!
