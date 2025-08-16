@@ -13,48 +13,7 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
     rel="stylesheet"/>
 	<!-- googlefonts link | Font Name Here-->
-   <style>
-    *{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	text-decoration: none;
-   list-style: none;	
-   font-family: "Inter", sans-serif;
-   scroll-behavior: smooth;
-
-}
-.container{
-    width: 100%;
-    min-height: 100vh;
-    background: #0b0423;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#left, #right{
-    width: 300px;
-    min-height: 400px;
-    margin: 20px;
-    border: 2px dashed #fff;
-}
-.list{
-    background: #e91e63;
-    height: 60px;
-    margin: 30px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    cursor: grab;
-}
-.list img{
-    width: 10px;
-    margin-right: 15px;
-    margin-left: 20px;
-    
-}
- 
-   </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
@@ -70,32 +29,6 @@
 
     </div>
   </div>
-    <script>
-      let lists = document.getElementsByClassName('list');
-      let rightBox = document.getElementById('right');
-      let leftBox = document.getElementById('left');
-
-for(list of lists){
-	list.addEventListener("dragstart", function(e){
-		let selected = e.target;
-
-		rightBox.addEventListener("dragover", function(e){
-			e.preventDefault();
-		});
-		rightBox.addEventListener("drop", function(e){
-			rightBox.appendChild(selected);
-			selected = null;
-		});
-		leftBox.addEventListener("dragover", function(e){
-			e.preventDefault();
-		});
-		leftBox.addEventListener("drop", function(e){
-			leftBox.appendChild(selected);
-			selected = null;
-		});
-	})
-}
-
-    </script>
+   <script src="scripts.js"></script>
 </body>
 </html>
